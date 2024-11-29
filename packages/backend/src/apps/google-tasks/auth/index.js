@@ -14,7 +14,7 @@ export default {
       value: 'https://automatisch.pkondratowicz.pl/app/google-tasks/connections/add',
       placeholder: null,
       description:
-        'When asked to input a redirect URL in Google Cloud, enter the URL above.',
+        'When asked to input a redirect URL in GCP, enter the URL asdfasdf.',
       clickToCopy: true,
     },
     {
