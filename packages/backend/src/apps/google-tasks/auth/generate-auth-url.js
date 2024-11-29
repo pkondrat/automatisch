@@ -5,7 +5,7 @@ export default async function generateAuthUrl($) {
   const oauthRedirectUrlField = $.app.auth.fields.find(
     (field) => field.key == 'oAuthRedirectUrl'
   );
-  const redirectUri = oauthRedirectUrlField.value;
+  const redirectUri = "https://automatisch.pkondratowicz.pl/app/google-tasks/connections/add";
   const searchParams = new URLSearchParams({
     client_id: $.auth.data.clientId,
     redirect_uri: redirectUri,
